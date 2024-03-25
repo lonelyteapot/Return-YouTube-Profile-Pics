@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Return YouTube Profile Pics",
+    "version": "1.0",
+    "description": "Missing avatars on YouTube? This add-on brings them back",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.youtube.com/*",
+        "*://yt3.ggpht.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
