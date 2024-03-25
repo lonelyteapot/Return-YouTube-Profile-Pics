@@ -3,6 +3,12 @@
     "name": "Return YouTube™ Profile Pics",
     "version": "1.0",
     "description": "Missing avatars on YouTube™? This add-on brings them back",
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    },
     "permissions": [
         "declarativeNetRequest",
         "declarativeNetRequestWithHostAccess"
@@ -23,9 +29,6 @@
     "background": {
         "scripts": ["service_worker.js"],
         "service_worker": "service_worker.js"
-    },
-    "action": {
-        "default_icon": "icon.png"
     },
     "browser_specific_settings": {
         "gecko": {
