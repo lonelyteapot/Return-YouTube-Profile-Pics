@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Return YouTube Profile Pics",
+    "name": "Return YouTube™ Profile Pics",
     "version": "1.0",
-    "description": "Missing avatars on YouTube? This add-on brings them back",
+    "description": "Missing avatars on YouTube™? This add-on brings them back",
     "permissions": [
         "declarativeNetRequest",
         "declarativeNetRequestWithHostAccess"
