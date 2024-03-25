@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "condition": {
+            "requestDomains": [
+                "yt3.ggpht.com"
+            ]
+        },
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "host": "yt4.ggpht.com"
+                }
+            }
+        }
+    }
+]
